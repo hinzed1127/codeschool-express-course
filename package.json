@@ -1,11 +1,15 @@
 {
   "name": "express-building-blocks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starting point for codeeschool express course",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/hinzed1127/codeschool-express-course.git"
+  }
 }
