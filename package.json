@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/hinzed1127/codeschool-express-course.git"
+    "type": "git",
+    "url": "https://github.com/hinzed1127/codeschool-express-course.git"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }
