@@ -5,17 +5,18 @@ var app = express(); //calling function returns instance of the application
 //app can create routes for HTTP requests
 var middleware = require('./middleware');
 
-
-
 app.use(middleware());
-app.use(express.static('public'));
+
+app.use(express.static(__dirname + '/public'));
 //serving static middleware from the public folder
 
-app.get('/', function(req, res) {
+app.get('/test', function(req, res) {
     //sends back server response
-    // response.send('Hello world\n');
+
     console.log('Current time: ' + req.requestTime);
-    res.end();
+    //requestTime property set by middleware.js
+
+    res.send('testing');
     //both of these functions are inherited from NodeJS
 });
 
